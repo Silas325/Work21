@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .nd {
+    font-size: 120%;
+   
+    background-image: url(registration.png);
+  }
+  
+  .header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    border-radius: 0px;
+    border-top: #5F9EA0;
+    
+    .head{
+      width: 20%;
+      margin: 50px auto 0px;
+      color: goldenrod;
+      background: #b7d5d6;
+      text-align: center;
+      border: 1px solid #B0C4DE;
+      border-bottom: none;
+      border-radius: 10px 10px 0px 0px;
+      padding: 20px;
+      border-radius: 10px;
+    }
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
+  .input-group {
+    position: relative;
+  }
+
+  .visibility-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+  }
+
+  /* Style the password field */
+  input[type="password"] {
+    padding-right: 30px; /* Adjust the value to ensure the icon doesn't overlap with text */
+  }
+
+  /* Style the icon */
+  input[type="password"]::after {
+    content: '👁️';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    cursor: pointer;
+  }
+  .home{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+  }
+

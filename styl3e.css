@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dff0d8; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+li:hover .dropdown {
+    display: block;
+    background-color: aqua;
+}
+
+.dropdown a {
+    padding: 10px;
+}
+.id{
+    color: white;
+    text-align: center;
+    position: relative;top: 100px;
+    float: none;
+    flex: auto;
+    align-items: center;
+    background-color: black;
+}
+.id1{
+ background-color: black;
+ color: white;
+}
+.im{
+   position:relative;top: 50px;
+}
+.but{
+text-decoration: none;
+background-color: rgb(119, 222, 98);
+color: rgb(73, 72, 108);
+padding: 10px 20px;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-size: 20px;
+border-radius: 5%;
+width: max-content;
+
+}
+.buy{
+background-color: aquamarine;
+width: 100%;
+height: fit-content;
+}
+.give{
+background-color: aqua;
+width: 100%;
+height: fit-content;
+}
+.got{
+background-color: rgb(213, 213, 25);
+width: 100%;
+height: fit-content;
+}
+.done{
+background-color: #dff0d8;
+position: relative;left: 0%;
+width: 100%;
+}
+.don{
+background-color: #dff0d8;
+position: relative;left: 15px;
+}
+.doit{
+    background-color: #dff0d8;
+}
+button{
+    background-color: black;
+    color: white;
+}
